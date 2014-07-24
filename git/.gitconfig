@@ -1,14 +1,29 @@
-[user]
-    email = tomas.aliaga@gmail.com
-    name = Tomas Aliaga
 [core]
-    editor = gedit
-[alias]
-    st = status
-    ci = commit
-    br = branch
-    co = checkout
-    fe = fetch --prune
-    df = diff
+	autocrlf = false
+	preloadindex = true
+	fscache = true
 [push]
-    default = simple
+	default = current
+[user]
+    
+	email = tomas.aliaga@gmail.com
+    
+	name = Tomas Aliaga
+[core]
+    
+	editor = gedit
+
+[alias]
+    
+	st = status
+    
+	ci = commit
+    
+	br = branch
+    
+	co = checkout
+    
+	fe = fetch --prune
+    
+	df = diff
+
