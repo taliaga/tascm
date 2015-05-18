@@ -2,28 +2,19 @@
 	autocrlf = false
 	preloadindex = true
 	fscache = true
+	rerere.enabled = True
 [push]
 	default = current
 [user]
-    
+    name = Tomas Aliaga
 	email = tomas.aliaga@gmail.com
-    
-	name = Tomas Aliaga
 [core]
-    
 	editor = gedit
-
 [alias]
-    
-	st = status
-    
+	st = status  
 	ci = commit
-    
-	br = branch
-    
-	co = checkout
-    
-	fe = fetch --prune
-    
-	df = diff
+    br = branch
+    co = checkout
+    fe = fetch --prune
+    df = diff
 
