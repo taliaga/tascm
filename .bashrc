@@ -2,7 +2,7 @@
 #default
 shopt -s autocd
 
-PS1='\033[01;32m[tomas@\t]\033[00m\w\$ '
+PS1='\[\e[1;32m\][\u@\A]\$\[\e[0m\] '
 
 ### ALIAS
 alias cls='clear'
