@@ -12,5 +12,8 @@ alias pyc="sh /home/tomas/Dev/pycharm/bin/pycharm.sh &"
 
 ### PYTHON
 VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3'
-# assuming virtualenvwrapper already installed
-source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/Dev/envs
+if [ -a /usr/local/bin/virtualenvwrapper.sh ]
+  then
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
