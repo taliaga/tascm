@@ -2,7 +2,7 @@
 #default
 shopt -s autocd
 
-PS1='\[\e[1;32m\][\A \w] \n\r(\u)$ \[\e[0m\]'
+PS1='\[\e[1;32m\][\A \w] \n(\u)$ \[\e[0m\]'
 
 ### ALIAS
 alias cls='clear'
