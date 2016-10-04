@@ -8,7 +8,7 @@
     name = Tomas Aliaga
     email = tomas.aliaga@gmail.com
 [core]
-    editor = gedit
+    editor = vim
 [alias]
     st = status  
     ci = commit
@@ -16,4 +16,6 @@
     co = checkout
     fe = fetch --prune
     df = diff
+    lol = log --pretty=oneline
+
 
